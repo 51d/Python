@@ -7,14 +7,10 @@ def draw_sqaure():
     a.shape('turtle')
     a.color('blue')
     a.speed(1)
-    a.forward(100)
-    a.right(90)
-    a.forward(100)
-    a.right(90)
-    a.forward(100)
-    a.right(90)
-    a.forward(100)
-    a.right(90)
-    window.exitonclick()
+    x=0
+    while x<4:
+        a.forward(100)
+        a.right(90)
+        x+=1    window.exitonclick()
         
 draw_sqaure()
